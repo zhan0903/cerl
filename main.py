@@ -32,7 +32,7 @@ import argparse
 
 
 parser = argparse.ArgumentParser()
-parser.add_argument('-pop_size', type=int, help='#Policies in the population',  default=10)
+parser.add_argument('-pop_size', type=int, help='#Policies in the population',  default=0)
 parser.add_argument('-seed', type=int, help='Seed',  default=2018)
 parser.add_argument('-rollout_size', type=int, help='#Policies in rolout size',  default=10)
 parser.add_argument('-env', type=str, help='#Environment name',  default='Humanoid-v2')
